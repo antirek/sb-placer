@@ -1,3 +1,5 @@
+var select = require('./helpers/selector');
+
 var actions = {
 
   place: function(targets, value) {
@@ -11,3 +13,5 @@ var actions = {
   }
 
 };
+
+module.exports = actions;

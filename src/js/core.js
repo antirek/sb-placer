@@ -1,3 +1,7 @@
+
+var type = require('./helpers/checkers');
+
+
 var core = {
 
   go: function(placer, targets, params) {
@@ -65,3 +69,5 @@ var core = {
   }
 
 };
+
+module.exports = core;

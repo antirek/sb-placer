@@ -11,3 +11,4 @@ var select = document.querySelectorAll || function(selector) {
 
 };
 
+module.exports = select;
