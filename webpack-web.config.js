@@ -9,7 +9,7 @@ module.exports = {
     library: 'sbPlacer',
   },
   optimization: {
-    minimize: false,
+    minimize: true,
   },
   module: {
     rules: [
